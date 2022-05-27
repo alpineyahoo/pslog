@@ -5,7 +5,7 @@ Use me before reboot.
 ## Installation
 ```bash
 $ cd ~/opt
-$ git clone 
+$ git clone https://github.com/alpineyahoo/pslog.git
 $ cd pslog
 $ make
 ```
