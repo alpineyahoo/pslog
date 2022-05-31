@@ -1,8 +1,6 @@
 #!/usr/bin/env bash
 
 case "$1" in
-	"log" ) bash ~/opt/pslog/bin/log ;;
-	"cat" ) bash ~/opt/pslog/bin/cat ;;
-	"clear" ) rm ~/opt/pslog/data/*; echo "pslog history cleared." ;;
+	"log" | "cat" | "clear" ) bash ~/opt/pslog/bin/$1 ;;
 	* ) echo "Set an argument: log, cat, or clear" ;;
 esac
