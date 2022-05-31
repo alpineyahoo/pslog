@@ -1,1 +1,2 @@
-
+rm ~/opt/pslog/data/*
+echo "pslog history cleared."
