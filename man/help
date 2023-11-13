@@ -1,0 +1,14 @@
+# pslog
+Active process(application) logger for MacOS.  
+Use me before reboot.
+
+## Env
+Log file is stored in `~/.local/share/pslog` directory
+
+## Usage
+
+$ pslog help # show this help
+$ pslog add # log active processes(applications)
+$ pslog last # print last log on terminal
+$ pslog open # view log file on Finder
+$ pslog clear # clear log history
