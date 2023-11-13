@@ -1,0 +1,3 @@
+# show log history with Finder
+open ~/.local/share/pslog
+# Use '-a' option to set app to open history file with
