@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
 case "$1" in
-	"add" | "last" | "open" | "clear" ) bash "$(dirname "$(readlink -f "$0")")"/$1 ;;
-	* ) echo "Set an argument: add, last, open, or clear" ;;
+	"add" | "last" | "open" | "clear" | "help" ) bash "$(dirname "$(readlink -f "$0")")"/$1 ;;
+	* ) echo "Set an argument: add, last, open, clear, or help" ;;
 esac
