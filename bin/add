@@ -4,6 +4,6 @@
 # add process log
 cd $(dirname $0) && cd ..
 logfile=~/.local/share/pslog/$(date +%s)
-osascript src/fg.* | sd ', ' '\n' >> $logfile &&
+osascript src/fg.* | tr ', ' '\n' >> $logfile &&
 echo -e "\n---\n" >> $logfile &&
-osascript src/bg.* | sd ', ' '\n' >> $logfile
+osascript src/bg.* | tr ', ' '\n' >> $logfile
