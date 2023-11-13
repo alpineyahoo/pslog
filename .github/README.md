@@ -4,7 +4,7 @@ Use me before reboot.
 
 ## Installation
 ```bash
-$ cd ~/opt
+$ cd ~/.local
 $ git clone https://github.com/alpineyahoo/pslog.git
 $ cd pslog
 $ make
@@ -12,8 +12,9 @@ $ make
 
 ## Usage
 ```bash
-$ pslog log # log active processes(applications)
-$ pslog cat # print last log
+$ pslog add # log active processes(applications)
+$ pslog last # print last log on terminal
+$ pslog open # view log file on Finder
 $ pslog clear # clear log history
 ```
 
