@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
 
-cd ~/opt/pslog/data/
+# cd ~/opt/pslog/data/
+cd ~/.local/share/pslog
 cat $(ls -1dv * | tail -n 1)
