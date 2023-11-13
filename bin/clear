@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
 
-rm ~/opt/pslog/data/*
+# rm ~/opt/pslog/data/*
+rm ~/.local/share/pslog/*
 echo "pslog history cleared."
